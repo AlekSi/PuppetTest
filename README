@@ -1,0 +1,43 @@
+Puppet Test
+===========
+
+Building
+========
+
+Building Qt bindings
+--------------------
+See third-party/qtscriptgenerator/README. In shot:
+
+    cd third-party/qtscriptgenerator/generator
+    qmake
+    make
+    ./generator
+    cd ../qtbindings
+    qmake
+    make
+
+Building Puppet Test
+--------------------
+As always:
+
+    qmake
+    make
+
+Test Suite
+==========
+* application
+* test cases
+
+Test Case
+=========
+* initTestCase
+* cleanupTestCase
+* init
+* cleanup
+* test methods
+
+Bindings
+========
+* namespace Qt -> Qt object
+* aApp -> Qt.App
+* namespace QTest -> QTest object

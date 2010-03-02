@@ -1,0 +1,6 @@
+[submodule "third-party/qtscriptgenerator"]
+	path = third-party/qtscriptgenerator
+	url = git://gitorious.org/qt-labs/qtscriptgenerator.git
+[submodule "third-party/QtMetaObjectFramework"]
+	path = third-party/QtMetaObjectFramework
+	url = git://github.com/AlekSi/QtMetaObjectFramework.git
